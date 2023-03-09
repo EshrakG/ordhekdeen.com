@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiggasha</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class=" bg-white flex justify-center shadow-xl">
+        <div class="navbar mx-56 ">
+            <div class="navbar-start mx-auto ">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                    <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a onclick="home()">হোম</a></li>
+                        <li><a onclick="aboutUs()">আমাদের সম্পর্কে</a></li>
+                        <li><a onclick="questons()">জিজ্ঞাসা</a></li>
+                        <li><a onclick="tips()"> নির্দেশনা</a></li>
+                        <li><a onclick="contact()">যোগাযোগ</a></li>
+
+                        <li tabindex="0">
+                            <a class="justify-between">
+                              বাংলা
+                      <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
+                    </a>
+                            <ul class="p-2">
+                                <li><a>English</a></li>
+                                <li><a>বাংলা</a></li>
+
+                                
+                            </ul>
+                        </li>
+                       
+                    </ul>
+                </div>
+                
+                <img class="w-60 max-[640px]:ml-20 " src="images/20221205130621.svg" alt="">
+            </div>
+            <div class="max-[640px]:ml-[140px]">
+                <div class="navbar-center hidden lg:flex ">
+                    <ul class="menu menu-horizontal px-1 mr-[200px]">
+                        <li><a onclick="home()">হোম</a></li>
+                        <li><a onclick="aboutUs()">আমাদের সম্পর্কে</a></li>
+                        <li><a onclick="questons()">জিজ্ঞাসা</a></li>
+                        <li><a onclick="tips()">নির্দেশনা</a></li>
+                        <li><a onclick="contact()">যোগাযোগ</a></li>
+                    </ul>
+                </div>
+                <div class="navbar ">
+                    <ul class="menu menu-horizontal px-1 hidden  lg:flex ">
+                        <li class="" tabindex="0">
+                            <a>
+                    বাংলা
+                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+                  </a>
+                            <ul class="p-2">
+                                <li><a>English</a></li>
+                                <li><a>বাংলা</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a onclick="login()" class="btn outline outline-purple-500 bg-white text-purple-500 font-bold hover:bg-purple-500 hover:text-white border-none outline-2 px-6 hover:shadow-2xl ">লগইন</a>
+             
+                </div>
+         
+            </div>
+ 
+        </div>
+       
+    </header>
+    <section class="bg-gradient-to-r from-purple-600 to-pink-500 p-24">
+        <h1 class="md:text-4xl sm:text-3xl text-white font-semibold text-center">সচরাচর জিজ্ঞাসা সমূহ</h1>
+    </section>
+<section class="flex justify-center mt-12">
+ <div class=" ">
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title font-medium">
+            অর্ধেকদ্বীন ডটকম কী? এটি কিভাবে কাজ করে?
+        </div>
+        <div class="collapse-content"> 
+          <p>এটি একটি বাংলাদেশী ইসলামিক ম্যাটরিমনি ওয়েবসাইট। এটির যাত্রা শুরু হয় জানুয়ারির ১ তারিখ ২০২১ । এখানে উপজেলা ভিত্তিক প্রেক্টিসিং মুসলিম পাত্রপাত্রীর বায়োডাটা খোঁজা ও অভিভাবকের সাথে যোগাযোগ করা যায়। একই সাথে পাত্র-পাত্রী চাইলে ওয়েবসাইটে বায়োডাটা তৈরি করে জমা দিতে পারে।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title font-medium">
+            বায়োডাটা জমা দিতে কত টাকা লাগে?
+        </div>
+        <div class="collapse-content"> 
+          <p>অর্ধেকদ্বীনে সম্পূর্ণ বিনামূল্যে বায়োডাটা জমা দেয়া যায়।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            এই ওয়েবসাইট কি সবার জন্য উন্মুক্ত?
+        </div>
+        <div class="collapse-content"> 
+          <p>না, এই ওয়েবসাইট সবার জন্য নয়, এই ওয়েবসাইট শুধুমাত্র প্রেক্টিসিং মুসলিমদের জন্য। </p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            বায়োডাটা তৈরি করার কোনো বিশেষ শর্ত আছে?
+        </div>
+        <div class="collapse-content"> 
+          <p>পুরুষ- <br>
+
+            ১/ ৫ ওয়াক্ত নামাযী হতে হবে। <br>
+            
+            ২/ ওয়াজিব দাড়ি সুন্নতি পদ্ধতিতে বড় থাকতে হবে। <br>
+            
+            ৩/ টাখনুর উপর কাপড় পরতে হবে। <br>
+            ৪/ অভিভাবকের অনুমতি। <br>
+            
+            <br>
+            
+            নারী- <br>
+            
+            ১/ ৫ ওয়াক্ত নামাযী হতে হবে। <br>
+            
+            ২/ “নিকাব” সহ ফরজ পর্দানশীন হতে হবে। <br>
+            
+            ৩/ অভিভাবকের অনুমতি।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            অর্ধেকদ্বীনে বায়োডাটা জমা দিলে আমার তথ্য কতটুকু গোপন থাকবে? কতটুকু প্রকাশিত হবে?
+        </div>
+        <div class="collapse-content"> 
+          <p>আপনার বায়োডাটা এপ্রুভ করা হলে আপনার ও আপনার পিতা-মাতার নাম, মোবাইল নাম্বার এবং ইমেইল এড্রেস গোপন রাখা হবে। বাকি সকল তথ্য সাধারণ ইউজাররা দেখতে পারবে। অর্থাৎ সাধারণ ইউজাররা আপনার বায়োডাটা পড়তে পারবে কিন্ত আপনার পরিচয় জানতে পারবে না।<br>
+
+            যদি কেউ বিয়ের জন্য যোগাযোগ করতে আগ্রহী হয় তাহলে কানেকশন ব্যবহার করে আপনার নাম, অভিভাবকের মোবাইল নাম্বার ও ইমেইল এড্রেস দেখতে পারবে এবং বিয়ের জন্য যোগাযোগ করতে পারবে। বিস্তারিত জানতে <a href="">Privacy Policy </a> পড়ুন।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            আমার বায়োডাটা এপ্রুভ হয় নি কেন?
+        </div>
+        <div class="collapse-content"> 
+          <p>বিভিন্ন কারণে বায়োডাটা এপ্রুভ করা হয় না। তার মাঝে কয়েকটি কারণ উল্লেখ করা হলো। <br>
+
+            ১/ যদি অভিভাবককে না জানিয়ে আমাদের ওয়েবসাইটে বায়োডাটা জমা দেয়া হয়। <br>
+            ২/ অভিভাবকের নাম্বারের ঘরে নিজের নাম্বার লিখে রাখলে। <br>
+            ৩/ ৫ ওয়াক্ত নামাযী না হলে। <br>
+            ৪/ পুরুষদের ক্ষেত্রে, ওয়াজিব দাঁড়ি সুন্নতি পদ্ধতীতে বড় না থাকলে। (প্রাকৃতিক কারণে যাদের দাঁড়ি বড় হয় না তারা ব্যতীত।) <br>
+            ৫/ পুরুষদের ক্ষেত্রে, টাখনুর উপর কাপড় না পরলে। <br>
+            ৬/ নারীদের ক্ষেত্রে, নিকাব সহ ফরজ পর্দা না করলে। <br>
+            ৭/ বায়োডাটাতে কোনো মিথ্যা তথ্য দিয়ে থাকলে। <br>
+            ৮/ বিশেষ প্রশ্নের উত্তর স্পষ্ট ভাবে না দিয়ে অন্য ভাবে দিলে। যেমনঃ অনেকেই শুধু “আলহামদুলিল্লাহ” বা “হুম” ইত্যাদি লিখেন, অথচ এটি দ্বারা হ্যাঁ/না স্পষ্টভাবে বোঝা যায় না । <br>
+            ৯/ ইসলামের সাথে সাংঘর্ষিক কোনো কিছু লিখলে। <br></p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            কিছু তথ্য সঠিকভাবে না দেয়ার কারণে আমার বায়োডাটা এপ্রুভ হয় নি, আমি কি আবার বায়োডাটা জমা দিতে পারবো?
+        </div>
+        <div class="collapse-content"> 
+          <p>হ্যাঁ পারবেন। যে ঘরে ভুল তথ্য দেয়ার জন্য আপনার বায়োডাটা নট এপ্রুভ করা হয়েছে, সেই ঘরে সঠিক তথ্য দিয়ে বায়োডাটা Submit করবেন তাহলে এপ্রুভ করা হবে ইন শা আল্লাহ। তবে অর্ধেকদ্বীনের রুলস ফলো না করার কারণে যদি বায়োডাটা নট এপ্রুভ হয় তাহলে আর এপ্রুভ হবে না। </p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            আমি ৫ ওয়াক্ত নামাযী, কিন্ত আমি সুন্নতী দাঁড়ি রাখি নি, আমি বায়োডাটা আপলোড করতে পারবো?
+        </div>
+        <div class="collapse-content"> 
+          <p>আপনি বায়োডাটা আপলোড করলে এপ্রুভ করা হবে না। যাদের বর্তমানে ওয়াজিব দাঁড়ি আছে শুধুমাত্র তাদের বায়োডাটা এপ্রুভ করা হবে। (প্রাকৃতিক কারণে যাদের দাঁড়ি বড় হয় না তারা ব্যতীত।)</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title font-medium">
+            আমার একটি বায়োডাটা পছন্দ হয়েছে, আমি কি সরাসরি সেই পাত্র/পাত্রীর সাথে যোগাযোগ করতে পারবো?
+        </div>
+        <div class="collapse-content"> 
+          <p>অর্ধেকদ্বীন সরাসরি পাত্র/পাত্রীর মাঝে যোগাযোগ করাকে সমর্থন করে না। শুধুমাত্র পাত্র/পাত্রীর অভিভাবকের সাথেই যোগাযোগ করতে পারবেন।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title font-medium">
+            আমি ৫ ওয়াক্ত নামাযী, আমি বোরকা ও হিজাব পরি তবে নিকাব পরি না। আমি বায়োডাটা আপলোড করতে পারবো?
+        </div>
+        <div class="collapse-content"> 
+          <p>আপনি বায়োডাটা আপলোড করলে এপ্রুভ করা হবে না। যারা নিকাব সহ ফরজ পর্দানশীন শুধুমাত্র তাদের বায়োডাটা এপ্রুভ করা হয়।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            আমার অভিভাবক আমার বিয়েতে রাজি নয়, আমি কি বায়োডাটা জমা দিতে পারবো?
+        </div>
+        <div class="collapse-content"> 
+          <p>আমাদের ওয়েবসাইটে বায়োডাটা তৈরি করতে হলে অবশ্যই পাত্র/পাত্রীর অভিভাবকের অনুমতি নিয়ে জমা দিতে হবে। অন্যথায় বায়োডাটা এপ্রুভ করা হয় না।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            আমি একজন ছাত্র, আমার এখনো কোনো আয় নেই, আমি কি বায়োডাটা আপলোড করতে পারবো?
+        </div>
+        <div class="collapse-content"> 
+          <p>হ্যাঁ, পারবেন। তবে অবশ্যই আপনার অভিভাবকের অনুমতি নিয়ে বায়োডাটা তৈরি করতে হবে।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            বায়োডাটা জমা দেয়ার পর বিয়ে হয়ে গেলে বা অন্য কারণে বায়োডাটা ডিলিট করতে পারবো?
+        </div>
+        <div class="collapse-content"> 
+          <p>হ্যাঁ, আপনার যখন ইচ্ছা তখন বায়োডাটা ডিলিট করতে পারবেন। </p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            একজনের বায়োডাটা আরেকজন তৈরি করতে পারবে?
+        </div>
+        <div class="collapse-content"> 
+          <p>আমাদের বায়োডাটা ফর্মে অনেক ব্যক্তিগত প্রশ্ন রয়েছে, যেগুলোর উত্তর একমাত্র পাত্র/পাত্রী নিজেই ভাল জানেন। অন্য কেউ যদি বায়োডাটা তৈরি করে দেয়, তাহলে সেই প্রশ্নগুলোর উত্তর বাহ্যিকভাবে সত্য হলেও কিছু ত্রুটি থেকে যেতে পারে। এজন্য যিনি পাত্র/পাত্রী তাকেই লিখতে হবে, এমন শর্ত আবশ্যক করা হয়েছে।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title  font-medium">
+            আমি ইন্টারনেট ব্যবহারে দক্ষ নই। আমি কিভাবে বায়োডাটা তৈরি করবো?
+        </div>
+        <div class="collapse-content"> 
+          <p>এক্ষেত্রে ইন্টারনেট ব্যবহারে দক্ষ ব্যক্তিকে পাশে বসিয়ে আপনি বায়োডাটায় উল্লেখিত প্রশ্নগুলোর উত্তর বলে দিবেন। ঐ ব্যক্তি আপনার বায়োডাটার তথ্যগুলো টাইপ করে আপনার বায়োডাটা তৈরিতে সাহায্য করবে।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title font-medium">
+            অর্ধেকদ্বীনের মাধ্যমে বিয়ে করলে বিবাহ পরবর্তী কোনো সার্ভিস চার্জ পরিশোধ করতে হয়?
+        </div>
+        <div class="collapse-content"> 
+          <p>না। অর্ধেকদ্বীনের মাধ্যমে বিয়ে করলে কোনো প্রকার বিবাহ পরবর্তী চার্জ পরিশোধ করতে হয় না।</p>
+        </div>
+      </div>
+    <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+        <input type="checkbox" /> 
+        <div class="collapse-title font-medium">
+            আমি বাংলাদেশী নই, আমি কি বায়োডাটা জমা দিতে পারবো?
+        </div>
+        <div class="collapse-content"> 
+          <p>না, আপাতত অর্ধেকদ্বীন শুধুমাত্র বাংলাদেশে কার্যক্রম পরিচালনা করছে। অন্য কোনো দেশের নাগরিক অর্ধেকদ্বীনের সেবা গ্রহণ করতে পারছে না।</p>
+        </div>
+      </div>
+ </div>
+</section>
+<footer>
+    <footer class="footer footer-center p-10 bg-purple-900 text-base-content rounded">
+        <div class="grid grid-flow-col gap-4 text-white font-semibold">
+          <a class="link link-hover">Privacy Policy</a> 
+          <a class="link link-hover">
+            Terms & Conditions</a> 
+          <a class="link link-hover">Refund Policy</a> 
+       
+        </div> 
+        <div>
+          <div class="grid grid-flow-col gap-4 text-white">
+    
+              <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a> 
+          </div>
+        </div> 
+        <div>
+          <p class="text-white font-semibold"> © 2021-2023 ordhekdeen.com </p>
+        </div>
+      </footer>
+</footer>
+    <script src="index.js"></script>
+</body>
+</html>

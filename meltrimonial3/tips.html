@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class=" bg-white flex justify-center shadow-xl">
+        <div class="navbar mx-56 ">
+            <div class="navbar-start mx-auto ">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                    <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a onclick="home()">হোম</a></li>
+                        <li><a onclick="aboutUs()">আমাদের সম্পর্কে</a></li>
+                        <li><a onclick="questons()">জিজ্ঞাসা</a></li>
+                        <li><a onclick="tips()">নির্দেশনা</a></li>
+                        <li><a onclick="contact()">যোগাযোগ</a></li>
+
+                        <li tabindex="0">
+                            <a class="justify-between">
+                              বাংলা
+                      <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
+                    </a>
+                            <ul class="p-2">
+                                <li><a>English</a></li>
+                                <li><a>বাংলা</a></li>
+
+                                
+                            </ul>
+                        </li>
+                       
+                    </ul>
+                </div>
+                
+                <img class="w-60 max-[640px]:ml-20 " src="images/20221205130621.svg" alt="">
+            </div>
+            <div class="max-[640px]:ml-[140px]">
+                <div class="navbar-center hidden lg:flex ">
+                    <ul class="menu menu-horizontal px-1 mr-[200px]">
+                        <li><a onclick="home()">হোম</a></li>
+                        <li><a onclick="aboutUs()">আমাদের সম্পর্কে</a></li>
+                        <li><a onclick="questons()">জিজ্ঞাসা</a></li>
+                        <li><a onclick="tips()">নির্দেশনা</a></li>
+                        <li><a onclick="contact()">যোগাযোগ</a></li>
+                    </ul>
+                </div>
+                <div class="navbar ">
+                    <ul class="menu menu-horizontal px-1 hidden  lg:flex ">
+                        <li class="" tabindex="0">
+                            <a>
+                    বাংলা
+                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+                  </a>
+                            <ul class="p-2">
+                                <li><a>English</a></li>
+                                <li><a>বাংলা</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a onclick="login()" class="btn outline outline-purple-500 bg-white text-purple-500 font-bold hover:bg-purple-500 hover:text-white border-none outline-2 px-6 hover:shadow-2xl ">লগইন</a>
+             
+                </div>
+         
+            </div>
+ 
+        </div>
+       
+    </header>
+    <section class="bg-gradient-to-r from-purple-600 to-pink-500 p-24">
+        <h1 class="md:text-4xl sm:text-3xl text-white font-semibold text-center">সাধারণ নির্দেশিকা</h1>
+    </section>
+
+    <section class="flex justify-center mt-12">
+        <div class=" ">
+           <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+               <input type="checkbox" /> 
+               <div class="collapse-title font-medium">
+                অর্ধেকদ্বীন ডটকমে কিভাবে একাউন্ট তৈরি করবো?
+               </div>
+               <div class="collapse-content"> 
+                 <p>১. প্রথমে OrdhekDeen.com প্রবেশ করুন এবং হোম পেজের উপরের ডান কোণে থাকা ইউজার আইকনে ক্লিক করুন।
+<br>
+                    ২. Create Account এ ক্লিক করুন। <br>
+                    
+                    ৩. রেজিস্ট্রেশন ফর্ম প্রদর্শিত হবে। আপনার নাম লিখুন এবং জেন্ডার সিলেক্ট করুন।
+                    <br>
+                    ৪. আপনার ইমেইল লিখে Verify বাটনে ক্লিক করুন। আপনার ইমেইল সঠিক হলে সেখানে একটি ভেরিফিকেশন কোড যাবে। নির্ধারিত স্থানে ভেরিফিকেশন কোড প্রবেশ করিয়ে Confirm বাটনে ক্লিক করে ইমেইল ভেরিফিকেশন সম্পন্ন করুন।
+                    <br>
+                    ৫. আপনার মোবাইল নাম্বার লিখে Verify বাটনে ক্লিক করুন। আপনার মোবাইল নাম্বার সঠিক হলে সেখানে একটি ভেরিফিকেশন কোড যাবে। নির্ধারিত স্থানে ভেরিফিকেশন কোড প্রবেশ করিয়ে Confirm বাটনে ক্লিক করে মোবাইল নাম্বার ভেরিফিকেশন সম্পন্ন করুন।
+                    <br>
+                    ৬. একটি পাসওয়ার্ড নির্বাচন করুন। <br>
+                    
+                    ৭. অর্ধেকদ্বীনের <a href="">Terms and Condition</a> এবং <a href="">Privacy Policy</a> এর সাথে একমত হলে চেকবক্স চেক করুন।
+                    <br>
+                    ৮. Create account বাটনে ক্লিক করে অ্যাকাউন্ট তৈরি সম্পন্ন করুন। <br></p>
+               </div>
+             </div>
+           <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+               <input type="checkbox" /> 
+               <div class="collapse-title font-medium">
+                অর্ধেকদ্বীন ডটকমে কিভাবে বায়োডাটা জমা দিবো ?
+               </div>
+               <div class="collapse-content"> 
+                 <p>১. প্রথমে অর্ধেকদ্বীনে লগইন করুন। অর্ধেকদ্বীনে অ্যাকাউন্ট না থাকলে অ্যাকাউন্ট তৈরি করুন। <br> <br>
+
+                    ২. লগইন করার পর হোম পেজ বা ড্যাশবোর্ড থেকে বায়োডাটা তৈরি করুন বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ৩. বায়োডাটা তৈরির পূর্বে অর্ধেকদ্বীনের শর্ত সমূহ পড়ুন এবং সম্মত হলে চেকবক্স চেক করে বায়োডাটা তৈরি করুন বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ৪. বায়োডাটা ফর্ম প্রদর্শিত হবে। ফর্মে সকল তথ্য সঠিকভাবে দেয়া শেষ হলে বায়োডাটা রিভিউ পেজে প্রবেশ করবেন এবং সব তথ্য ভালভাবে পরিদর্শন করে Submit বাটনে ক্লিক করে বায়োডাটা জমা দিন।
+                    <br> <br>
+                    ৫. কয়েকদিনের মাঝে অর্ধেকদ্বীন কাস্টমার কেয়ার থেকে আপনার অভিভাবক এবং আপনাকে কল করে ভেরিফাই করা হতে পারে।
+                    <br> <br>
+                    ৬. অর্ধেকদ্বীন কাস্টমার কেয়ার কর্তৃক আপনার বায়োডাটা রিভিউ শেষে একটি মেইল দিয়ে এপ্রুভ অথবা নট-এপ্রুভ স্ট্যাটাস জানানো হবে ইন শা আল্লাহ ।
+                    <br> <br>
+                    
+                    <span class="font-bold">লক্ষণীয়ঃ বায়াডাটায় সকল তথ্য স্পষ্ট করে লিখবেন।</span> <br> </p>
+               </div>
+             </div>
+           <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+               <input type="checkbox" /> 
+               <div class="collapse-title  font-medium">
+                অর্ধেকদ্বীনে বায়োডাটা এডিট করবো কিভাবে?
+               </div>
+               <div class="collapse-content"> 
+                 <p>১. প্রথমে অর্ধেকদ্বীন একাউন্টে লগইন করুন।
+               <br> <br>
+                    ২. লগইন করার উপরের ডান কোণে থাকা ইউজার আইকনে ক্লিক করুন।
+                    <br> <br>
+                    ৩. বায়োডাটা এডিট করুন বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ৪. বায়োডাটা ফর্মটি প্রদর্শিত হবে, আপনি যে তথ্যটি এডিট করতে চান সেখানে প্রবেশ করে এডিট শেষে বায়োডাটা রিভিউ করুন এবং Submit বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ৫. অর্ধেকদ্বীন কাস্টমার কেয়ার থেকে আপনার এডিট করা তথ্য রিভিউ করা হবে।
+                    <br> <br>
+                    ৬. রিভিউ শেষে একটি মেইল দিয়ে এপ্রুভ অথবা নট-এপ্রুভ স্ট্যাটাস জানানো হবে ইন শা আল্লাহ। <br> <br></p>
+               </div>
+             </div>
+           <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+               <input type="checkbox" /> 
+               <div class="collapse-title  font-medium">
+                অর্ধেকদ্বীনে বায়োডাটা সাময়িক সময়ের জন্য হাইড করবো কিভাবে?
+               </div>
+               <div class="collapse-content"> 
+                 <p> <span class="font-bold">পাত্র/পাত্রী পক্ষের সাথে বিয়ের কথা চলা অবস্থায় আপনার বায়োডাটা হাইড করে রাখুন।</span>  এছাড়াও আপনি যে কোনো কারণে যে কোনো সময়কালের জন্য এক ক্লিকে বায়োডাটা হাইড করে রাখতে পারবেন। অর্থাৎ আপনার বায়োডাটা সার্চ রেজাল্টে দেখানো হবে না।
+
+                         <br> <br>
+                    ১. প্রথমে অর্ধেকদ্বীন একাউন্টে লগইন করুন।
+                    <br> <br>
+                    ২. লগইন করার পর ড্যাশবোর্ডে যান অথবা উপরের ডান কোণে থাকা ইউজার আইকনে ক্লিক করুন।
+                    <br> <br>
+                    ৩. Biodata Status এর নিচে স্লাইড বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ৪. আপনাকে একটি কনফার্মেশন পপআপ দেখাবে।
+                    <br> <br>
+                    ৫. Ok বাটনে ক্লিক করে বায়োডাটা হাইড করুন।
+                    <br> <br>
+                    </p>
+               </div>
+             </div>
+           <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+               <input type="checkbox" /> 
+               <div class="collapse-title  font-medium">
+                অর্ধেকদ্বীনে বায়োডাটা ডিলিট করবো কিভাবে?
+               </div>
+               <div class="collapse-content"> 
+                 <p>আপনি যে কোনো সময় আপনার বায়োডাটা নিজেই ডিলিট করতে পারবেন।
+
+                   <br> <br>
+                    ১. প্রথমে অর্ধেকদ্বীন একাউন্টে লগইন করুন।
+                    <br> <br>
+                    ২. লগইন করার পর ড্যাশবোর্ডে যান অথবা উপরের ডান কোণে থাকা ইউজার আইকনে ক্লিক করুন।
+                    <br> <br>
+                    ৩. সেটিংস এ ক্লিক করুন।
+                    <br> <br>
+                    ৪. বায়োডাটা ডিলিট বাটনে ক্লিক করে ডিলিট সম্পন্ন করুন।
+                    
+                    <br> <br>
+                    <span class="font-bold">লক্ষণীয়:</span> আপনার বায়োডাটা ডিলিট করলে আর ফেরত আনতে পারবেন না। সাময়িক সময়ের জন্য প্রয়োজন হলে হাইড করে রাখতে পারেন।</p>
+               </div>
+             </div>
+           <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+               <input type="checkbox" /> 
+               <div class="collapse-title  font-medium">
+                কোনো বায়োডাটার ব্যাপারে অভিযোগ করবো কিভাবে?
+               </div>
+               <div class="collapse-content"> 
+                 <p>আপনি কানেকশন ব্যবহারের মাধ্যমে কোনো বায়োডাটার যোগাযোগ তথ্য দেখে থাকলে, সেই বায়োডাটার ব্যাপারে কোনো অভিযোগ করতে চাইলে-
+<br> <br>
+
+                    ১. উক্ত বায়োডাটার নিচে Report বাটনে ক্লিক করুন। অথবা ড্যাশবোর্ড থেকে আমার ক্রয়সমূহ মেনুতে যান। সেখান থেকে অভিযুক্ত বায়োডাটার পাশের Report বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ২. নির্ধারিত ফর্ম পূরণ করে আপনার অভিযোগ করুন।
+                    <br> <br>
+                    কাস্টমার কেয়ার থেকে তা যাচাই করে উপযুক্ত পদক্ষেপ নেয়া হবে ইন শা আল্লাহ।<br> <br></p>
+               </div>
+             </div>
+           <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+               <input type="checkbox" /> 
+               <div class="collapse-title  font-medium">
+                কিভাবে কানেকশন ক্রয় করবো?
+               </div>
+               <div class="collapse-content"> 
+                 <p>অর্ধেকদ্বীন ডটকমে একজন পাত্র বা পাত্রীর অভিভাবকের যোগাযোগের নাম্বার দেখতে একটি কানেকশন ব্যবহার করতে হয়। নিম্নবর্ণিত উপায়ে কানেকশন ক্রয় করতে পারবেন-
+               <br> <br>
+
+                    ১. প্রথমে অর্ধেকদ্বীন ড্যাসবোর্ডে প্রবেশ করুন।
+                    <br> <br>
+                    ২. “কানেকশন কিনুন” এই বাটনটিতে ক্লিক করুন।
+                    <br> <br>
+                    ৩. এই পেজে ৩ টি কানেকশন প্যাকেজ দেখতে পাবেন। আপনার প্রয়োজন অনুযায়ী একটি প্যাকেজ নির্বাচন করুন এবং Purchage Now বাটনটিতে ক্লিক করুন।
+                    <br> <br>
+                    ৪. বিকাশ অথবা নগদ যে একাউন্ট থেকে পেমেন্ট করতে চাচ্ছেন তা সিলেক্ট করুন এবং Pay Now বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ৫. যদি বিকাশ সিলেক্ট করে Pay Now বাটনে ক্লিক করেন তাহলে বিকাশ থেকে পেমেন্ট করার চেক আউট দেখতে পারবেন। প্রথমে আপনার বিকাশ নাম্বারটি লিখুন এবং Confirm বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ৬. আপনার বিকাশ মোবাইল নাম্বারে একটি OTP কোড যাবে সেটি প্রবেশ করান এবং Confirm বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ৭. আপনার বিকাশের PIN কোডটি বসান এবং Confirm বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ৮. এভাবে খুব সহজেই আপনার পেমেন্ট করা সম্পন্ন হবে এবং আপনার একাউন্টে কানেকশন যোগ হয়ে যাবে ইন শা আল্লাহ।
+                    <br> <br>
+                    ৯. ড্যাসবোর্ডে এসে আপনার কানেকশন দেখতে পারবেন এবং অভিভাবকের নাম্বার পেতে এটি ব্যবহার করতে পারবেন। <br> <br></p>
+               </div>
+             </div>
+           <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+               <input type="checkbox" /> 
+               <div class="collapse-title  font-medium">
+                কিভাবে কানেকশন রিফান্ড পেতে পারি?
+               </div>
+               <div class="collapse-content"> 
+                 <p>কানেকশন ব্যবহার করে কোনো বায়োডাটার যোগাযোগ তথ্য নিয়ে যোগাযোগ করতে ব্যর্থ হলে আপনি কানেকশন ফেরত পেতে পারেন। তবে বিপরীত পক্ষ যদি তাদের ব্যক্তিগত অপছন্দের কারণে আপনার প্রস্তাব প্রত্যাখ্যান করে তাহলে রিফান্ড পাবেন না।
+<br> <br>
+                    ১. সর্বপ্রথম উক্ত বায়োডাটার সবার নিচে Report বাটনে ক্লিক করুন। অথবা ড্যাশবোর্ড থেকে আমার ক্রয়সমূহ মেনুতে যান। সেখান থেকে সেই বায়োডাটার পাশের Report বাটনে ক্লিক করুন।
+                    <br> <br>
+                    ২. নির্ধারিত ফর্ম পূরণ করে আপনার অভিযোগ দাখিল করুন। কাস্টমার কেয়ার থেকে আপনার অভিযোগ যাচাই করা হবে এবং খুব দ্রুত আপনাকে জানানো হবে ইন শা আল্লাহ।
+                    <br> <br>
+                    
+                    বিস্তারিত জানতে অর্ধেকদ্বীনের Refund Policy দেখুন। <br> <br></p>
+               </div>
+             </div>
+           <div  tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box md:w-[900px] mb-5 ">
+               <input type="checkbox" /> 
+               <div class="collapse-title font-medium">
+                আমি অর্ধেকদ্বীন একাউন্ট ডিলিট করতে চাই। আমার অবশিষ্ট কানেক্ট কাজে লাগছেনা, কিভাবে টাকা রিফান্ড পেতে পারি?
+               </div>
+               <div class="collapse-content"> 
+                 <p>আমাদের রিফান্ড পলিসিতে বিস্তারিত লিখা আছে। এখানে ক্লিক করুন রিফান্ড পলিসি <br></p>
+               </div>
+             </div>
+
+
+
+
+
+           
+        </div>
+       </section>
+
+       <footer class="mt-20">
+        <footer class="footer footer-center p-10 bg-purple-900 text-base-content rounded">
+            <div class="grid grid-flow-col gap-4 text-white font-semibold">
+              <a class="link link-hover">Privacy Policy</a> 
+              <a class="link link-hover">
+                Terms & Conditions</a> 
+              <a class="link link-hover">Refund Policy</a> 
+           
+            </div> 
+            <div>
+              <div class="grid grid-flow-col gap-4 text-white">
+        
+                  <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a> 
+              </div>
+            </div> 
+            <div>
+              <p class="text-white font-semibold"> © 2021-2023 ordhekdeen.com </p>
+            </div>
+          </footer>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

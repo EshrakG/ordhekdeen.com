@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In From</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/282d529dc8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class=" bg-white flex justify-center shadow-lg">
+        <div class="navbar mx-56 ">
+            <div class="navbar-start mx-auto ">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                    <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a onclick="home()">হোম</a></li>
+                        <li><a onclick="aboutUs()">আমাদের সম্পর্কে</a></li>
+                        <li><a onclick="questons()">জিজ্ঞাসা</a></li>
+                        <li><a onclick="tips()">নির্দেশনা</a></li>
+                        <li><a onclick="contact()">যোগাযোগ</a></li>
+
+                        <li tabindex="0">
+                            <a class="justify-between">
+                              বাংলা
+                      <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
+                    </a>
+                            <ul class="p-2">
+                                <li><a>English</a></li>
+                                <li><a>বাংলা</a></li>
+
+                                
+                            </ul>
+                        </li>
+                       
+                    </ul>
+                </div>
+                
+                <img class="w-60 max-[640px]:ml-20 " src="images/20221205130621.svg" alt="">
+            </div>
+            <div class="max-[640px]:ml-[140px]">
+                <div class="navbar-center hidden lg:flex ">
+                    <ul class="menu menu-horizontal px-1 mr-[200px]">
+                        <li><a onclick="home()">হোম</a></li>
+                        <li><a onclick="aboutUs()">আমাদের সম্পর্কে</a></li>
+                        <li><a onclick="questons()">জিজ্ঞাসা</a></li>
+                        <li><a onclick="tips()">নির্দেশনা</a></li>
+                        <li><a onclick="contact()">যোগাযোগ</a></li>
+                    </ul>
+                </div>
+                <div class="navbar ">
+                    <ul class="menu menu-horizontal px-1 hidden  lg:flex ">
+                        <li class="" tabindex="0">
+                            <a>
+                    বাংলা
+                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+                  </a>
+                            <ul class="p-2">
+                                <li><a>English</a></li>
+                                <li><a>বাংলা</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a onclick="login()" class="btn outline outline-purple-500 bg-white text-purple-500 font-bold hover:bg-purple-500 hover:text-white border-none outline-2 px-6 hover:shadow-2xl ">লগইন</a>
+             
+                </div>
+         
+            </div>
+ 
+        </div>
+       
+    </header>
+    
+    <section class="flex justify-center mt-20">
+     <div class="w-[500px] bg-white shadow-2xl">
+        <h1 class="text-purple-500 font-bold text-3xl text-center">Login to your account</h1>
+        
+<div class="flex justify-center">
+  
+        <div class="form-control w-full max-w-xs">
+            <label class="label">
+              <span class="label-text">Email</span>
+             
+            </label>
+            <input type="text" placeholder="Type Your email Address" class="input input-bordered w-full max-w-xs" />
+        
+          </div>
+    
+ 
+</div>
+<div class="flex justify-center">
+  
+        <div class="form-control w-full max-w-xs">
+            <label class="label">
+              <span class="label-text">Paaaword</span>
+             
+            </label>
+            <input type="password" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            <div class="flex items-center mt-5">
+
+                <input  type="checkbox" checked="checked" class="checkbox" />
+                <span class="ml-3">  Remamber Me</span>
+                <a class="ml-10" href="">Forget Password?</a>
+            </div>
+           
+            
+        
+          </div>
+
+    
+
+</div>
+<div class="flex justify-center mt-5">
+    <button class="flex justify-center items-center btn bg-gradient-to-r from-purple-900 normal-case border-none to-pink-500 w-[320px] hover:shadow-lg">
+        <i class="fa-solid fa-user mr-3"></i>
+        <h1>log in another account</h1>
+    </button>
+  </div>
+<div class="divider"><hr>OR <hr></div>
+<div class="flex justify-center mt-5">
+    <button class="flex justify-center items-center btn normal-case border-none bg-white text-black hover:bg-white w-[320px] hover:shadow-lg shadow-2xl">
+        <i class="fa-brands fa-google mr-3"></i>
+        <h1>Continue With Google</h1>
+    </button>
+  </div>
+  <h1 class="text-1xl text-center mt-8">Don't have an account?</h1>
+  <div class="flex justify-center mt-5">
+    <button class="flex justify-center items-center btn normal-case border-none bg-green-500 text-black hover:bg-green-400 w-[320px] hover:shadow-lg ">
+        <i class="fa-light fa-plus mr-3"></i>
+        <h1>Create Account</h1>
+    </button>
+  </div>
+  <div class="flex justify-center mt-5 mb-5">
+    <button class="flex justify-center items-center btn normal-case border-none bg-white text-black hover:bg-white w-[320px] hover:shadow-lg shadow-2xl">
+        <i class="fa-brands fa-youtube mr-3"></i>
+        <h1>How To Create An Account?</h1>
+    </button>
+  </div>
+     </div>
+          
+    </section>
+
+    <footer class="mt-20">
+        <footer class="footer footer-center p-10 bg-purple-900 text-base-content rounded">
+            <div class="grid grid-flow-col gap-4 text-white font-semibold">
+              <a class="link link-hover">Privacy Policy</a> 
+              <a class="link link-hover">
+                Terms & Conditions</a> 
+              <a class="link link-hover">Refund Policy</a> 
+           
+            </div> 
+            <div>
+              <div class="grid grid-flow-col gap-4 text-white">
+        
+                  <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a> 
+              </div>
+            </div> 
+            <div>
+              <p class="text-white font-semibold"> © 2021-2023 ordhekdeen.com </p>
+            </div>
+          </footer>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
