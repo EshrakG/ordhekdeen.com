@@ -2,7 +2,7 @@ const home = () => {
     window.location.assign("index.html")
 }
 const aboutUs = () => {
-    window.location.assign("jaboutUs.html")
+    window.location.assign("aboutUs.html")
 }
 
 
@@ -15,7 +15,7 @@ const tips = () => {
 }
 
 const contact = () => {
-    window.location.assign("kcontact.html")
+    window.location.assign("contact.html")
 }
 
 const login = () => {
