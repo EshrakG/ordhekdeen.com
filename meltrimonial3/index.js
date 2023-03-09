@@ -1,23 +1,23 @@
-const home = ()=>{
+const home = () => {
     window.location.assign("index.html")
 }
-const aboutUs = ()=>{
-    window.location.assign("aboutUs.html")
+const aboutUs = () => {
+    window.location.assign("jaboutUs.html")
 }
 
 
-const questons = ()=>{
+const questons = () => {
     window.location.assign("questions.html")
 }
 
-const tips = ()=>{
+const tips = () => {
     window.location.assign("tips.html")
 }
 
-const contact = ()=>{
-    window.location.assign("contact.html")
+const contact = () => {
+    window.location.assign("kcontact.html")
 }
 
-const login = () =>{
+const login = () => {
     window.location.assign("login.html")
 }
